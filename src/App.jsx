@@ -1,13 +1,15 @@
-import React from 'react'
-import './App.module.css'
-import Nav from './Component/Nav/Nav'
+import React from "react";
+import "./App.css";
+import Nav from "./Component/Nav/Nav";
+import Home from "./Component/Home/Home";
 
 const App = () => {
   return (
     <>
-      <Nav/>
+      <Nav />
+      <Home />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
