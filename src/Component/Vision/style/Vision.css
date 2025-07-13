@@ -1,0 +1,55 @@
+.vision {
+  width: 100vw;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vision__container {
+  max-width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vision__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.vision__text-title {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "poppins";
+}
+.vision__text-desc {
+  font-size: 14px;
+  color: #333;
+  font-family: "Poppins";
+  line-height: 18px;
+}
+.vision__text-read {
+  color: rgb(8, 72, 155);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Poppins";
+}
+.vision__text-read .icon {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .vision__text-title {
+    font-size: 30px;
+  }
+  .vision__text-desc {
+    font-size: 12px;
+  }
+  .vision__text-read {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=Vision.css.map */
