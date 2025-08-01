@@ -1,0 +1,72 @@
+.team {
+  width: 100vw;
+  padding: 50px 0;
+  font-family: "Poppins";
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    p {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    span {
+      font-size: 14px;
+      color: #555;
+    }
+  }
+  &__row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 80vw;
+  }
+  &__col {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    min-height: 250px;
+    min-width: 250px;
+    align-items: center;
+    justify-content: center;
+    // padding: 30px 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    gap: 5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &-img {
+      height: 110px;
+      width: 110px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+    }
+    &-txt {
+      text-align: center;
+    }
+    &-name {
+      font-weight: 500;
+      font-size: 18px;
+    }
+    &-post {
+      font-size: 14px;
+      color: #555;
+    }
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

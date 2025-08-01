@@ -1,0 +1,60 @@
+.introduction {
+  width: 100vw;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 90vw;
+    gap: 30px;
+  }
+  &__txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Poppins";
+    &-title {
+      font-size: 30px;
+      font-weight: 600;
+    }
+    &-desc {
+      font-size: 14px;
+      color: #555;
+    }
+  }
+  &__boxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 70vw;
+    width: 100%;
+
+    &-student,
+    &-excellence,
+    &-service {
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      font-family: "Poppins";
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #555;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+        transform: translateY(-5px);
+      }
+    }
+  }
+}

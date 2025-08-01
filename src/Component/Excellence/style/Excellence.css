@@ -1,1 +1,65 @@
-/*# sourceMappingURL=Excellence.css.map */
+.excellence {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+.excellence__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+.excellence__title {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.excellence__row {
+  display: flex;
+  max-width: 90vw;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.excellence__col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 10px;
+  width: 25vw;
+  border-radius: 10px;
+  gap: 5px;
+  font-family: "Poppins";
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.excellence__col-icon {
+  color: rgb(239, 43, 134);
+}
+.excellence__col-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+.excellence__col-desc {
+  font-size: 14px;
+  color: #555;
+}
+.excellence__col:hover {
+  animation: colAnimate 0.5s linear;
+}
+
+@media (max-width: 768px) {
+  .excellence__title {
+    font-size: 30px;
+  }
+  .excellence__col {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Excellence.css.map */

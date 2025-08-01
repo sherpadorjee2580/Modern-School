@@ -1,0 +1,59 @@
+.principle {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.principle__container {
+  max-width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 25px;
+  font-family: "Poppins";
+}
+.principle__txt {
+  max-width: 65vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.principle__txt-title {
+  font-size: 35px;
+  font-weight: 600;
+}
+.principle__txt-desc {
+  font-size: 14px;
+  color: #555;
+}
+.principle__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.principle__col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
+  gap: 5px;
+  border-radius: 10px;
+}
+.principle__col-icon {
+  font-size: 30px;
+}
+.principle__col-title {
+  font-weight: 600;
+}
+.principle__col-desc {
+  font-size: 12px;
+  color: #555;
+}/*# sourceMappingURL=Principle.css.map */

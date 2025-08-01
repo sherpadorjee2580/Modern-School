@@ -1,0 +1,71 @@
+.team {
+  width: 100vw;
+  padding: 50px 0;
+  font-family: "Poppins";
+}
+.team__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.team__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.team__title p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.team__title span {
+  font-size: 14px;
+  color: #555;
+}
+.team__row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 80vw;
+}
+.team__col {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  min-height: 250px;
+  min-width: 250px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  gap: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.team__col-img {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.team__col-txt {
+  text-align: center;
+}
+.team__col-name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.team__col-post {
+  font-size: 14px;
+  color: #555;
+}
+.team__col:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=Team.css.map */

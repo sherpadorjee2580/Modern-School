@@ -1,0 +1,50 @@
+.schoolLife {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.schoolLife__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 90vw;
+  gap: 20px;
+}
+.schoolLife__txt {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+.schoolLife__txt-title {
+  font-size: 35px;
+  font-weight: 600;
+}
+.schoolLife__txt-desc {
+  font-size: 12px;
+  color: #555;
+}
+.schoolLife__galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+.schoolLife__view {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  border: none;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+}/*# sourceMappingURL=SchoolLife.css.map */

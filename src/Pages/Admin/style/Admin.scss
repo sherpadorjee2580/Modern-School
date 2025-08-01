@@ -1,0 +1,93 @@
+.admin {
+  &__section {
+    padding: 4rem 2rem;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+  }
+
+  &__container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+
+  &__description {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+
+  &__empty {
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+    padding: 2rem 0;
+  }
+
+  &__table-wrapper {
+    overflow-x: auto;
+    border-radius: 8px;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+
+    th,
+    td {
+      padding: 16px 20px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    th {
+      background-color: #f8f9fa;
+      font-weight: 600;
+      color: #444;
+    }
+
+    tr:hover {
+      background-color: #f1f3f5;
+      transition: 0.3s;
+    }
+
+    td {
+      color: #333;
+    }
+  }
+
+  &__status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+
+    &--active {
+      background-color: #e0f8ec;
+      color: #27ae60;
+    }
+
+    &--pending {
+      background-color: #fff7e6;
+      color: #f39c12;
+    }
+
+    &--rejected {
+      background-color: #fdecea;
+      color: #e74c3c;
+    }
+  }
+}

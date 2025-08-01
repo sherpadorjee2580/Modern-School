@@ -1,0 +1,57 @@
+.introduction {
+  width: 100vw;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.introduction__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 90vw;
+  gap: 30px;
+}
+.introduction__txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Poppins";
+}
+.introduction__txt-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.introduction__txt-desc {
+  font-size: 14px;
+  color: #555;
+}
+.introduction__boxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 70vw;
+  width: 100%;
+}
+.introduction__boxContainer-student, .introduction__boxContainer-excellence, .introduction__boxContainer-service {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-family: "Poppins";
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  transition: 0.2s ease-in-out;
+}
+.introduction__boxContainer-student:hover, .introduction__boxContainer-excellence:hover, .introduction__boxContainer-service:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+}/*# sourceMappingURL=Introduction.css.map */
